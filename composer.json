@@ -1,0 +1,19 @@
+{
+  "name": "brunocaldara/evo",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Bruno Caldara",
+      "email": "brunocaldara@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.9",
+    "vlucas/phpdotenv": "^5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  }
+}
